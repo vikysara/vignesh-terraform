@@ -1,6 +1,6 @@
 resource "aws_instance" "vignesh-github-tf-project" {
    ami             = "ami-080e1f13689e07408"
-   instance_type     = "t2.micro"
+   instance_type     = "t2.large"
 }
 
 terraform {
